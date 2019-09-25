@@ -1,0 +1,23 @@
+{
+  "name": "yellow-ball-players",
+  "version": "1.0.0",
+  "description": "Basic HTTP REST API with decent test coverage about some skilled sport players",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johan-ZeLearner/yellow-ball-players.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johan-ZeLearner/yellow-ball-players/issues"
+  },
+  "homepage": "https://github.com/Johan-ZeLearner/yellow-ball-players#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fetch": "^1.1.0"
+  }
+}
