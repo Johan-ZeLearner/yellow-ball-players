@@ -4,7 +4,8 @@
   "description": "Basic HTTP REST API with decent test coverage about some skilled sport players",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest tests/"
+    "test": "jest tests/",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",

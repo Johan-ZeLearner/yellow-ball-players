@@ -11,10 +11,6 @@ const getHeadToHeadFile = async () => {
   return response.json();
 };
 
-app.get('/', (req, res) => {
-  res.status(200).send('Hello World!')
-})
-
 app.get('/players', async (req, res) => {
   const headToHeadJSON = await getHeadToHeadFile();
 
