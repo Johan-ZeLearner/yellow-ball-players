@@ -4,7 +4,7 @@
   "description": "Basic HTTP REST API with decent test coverage about some skilled sport players",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest tests/"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,15 @@
   "dependencies": {
     "express": "^4.17.1",
     "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
